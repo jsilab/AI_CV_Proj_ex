@@ -26,7 +26,10 @@ cap = cv2.VideoCapture(0)
 
 while True:
     
-    _, image = cap.read()
+    ret, image = cap.read()
+
+    if not ret:
+        break
 
     height, width = image.shape[0], image.shape[1]
     # height, weight = image.shape[:2]
