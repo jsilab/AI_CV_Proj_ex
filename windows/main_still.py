@@ -6,7 +6,10 @@ base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 prototxt_path = os.path.join(base_dir, "assets", "models", "MobileNetSSD_deploy.prototxt")
 model_path = os.path.join(base_dir, "assets", "models", "MobileNetSSD_deploy.caffemodel")
 
-img_path =  os.path.join(base_dir, "assets", '004545.jpg')
+# img_path =  os.path.join(base_dir, "assets", '004545.jpg')
+# img_path =  os.path.join(base_dir, "assets", '001763.jpg')
+img_path =  os.path.join(base_dir, "assets", 'ace_radio.jpg')
+# img_path =  os.path.join(base_dir, "assets", 'radio_ace.jpg')
 
 ### this is your confidence in how sure your model treats stuff
 min_confidence = 0.2 
